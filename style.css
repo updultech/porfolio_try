@@ -70,7 +70,8 @@
             text-align: center;
             padding: 1rem;
             position: fixed;
-            width: 100%;
+            width: 100vw; /* Ensures the footer spans the full viewport width */
+            left: 0; /* Forces the footer to start from the leftmost edge */
             bottom: 0;
         }
         .profile {
